@@ -1,0 +1,31 @@
+
+@media only screen and (min-width: 416px) and (max-width: 600px){
+    .journey{
+        font-size: 3rem;
+    }
+
+    .food-image-show {
+        /* height: 235vh; */
+        /* display: block; */
+        display: flex;
+        align-items: center;
+        margin-top: 0%;
+        width: 100vw;
+    }
+
+    .image {
+        width: auto;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .image span img {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .image_intro {
+        width: 20vw;
+        color: black;
+    }
+
+}

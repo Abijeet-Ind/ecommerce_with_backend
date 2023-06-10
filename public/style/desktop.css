@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    color: rgb(59, 59, 59);
+
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    align-items: center;
+}
+
+.navigation-control{
+    display: flex;
+}
+
+.menu{
+    display: none;
+}
+
+.logo{
+    font-size: 1.4rem;
+}
+
+.navigation-control li{
+    font-size: 1.1rem;
+    margin: 0 2rem 0rem 2rem;
+    list-style: none;
+}
+
+/* body section */
+.body{
+    /* height: 390vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.journey-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.journey{
+    font-size: 4rem;
+}
+
+.journey-where{
+    font-size: 2.5rem;
+}
+
+.join{
+    position: relative;
+    top: 4rem;
+    font-size: 1.4rem;
+}
+
+/* food category list */
+.food-image-show{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin-top: 5rem; */
+    /* height: 118vh; */
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.image{
+    width: 25vw;
+    margin-top: 3rem;
+
+}
+
+img{
+    height: 25vw;
+    width: 50vh;
+}
+
+.image_intro{
+    width: 20vw;
+}
+
+.image_intro p{
+    width: 25vw;
+}
+
+/* button */
+.button-section{
+    height: 6vw;
+    margin-top: 3rem;
+    /* width: 15vh; */
+}
+a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+.button{
+    width: 15vw;
+}
+
+.moreButton, .goto-button{
+    width: 7vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    background-color: #232323;
+    color: white;
+    border-color: transparent;
+}
+
+/* redirect shop */
+.redirect-shop{
+    height: 50vh;
+    width: 100vw;
+    background-color: #f2edeb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text_link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-img{
+    height: 40vh;
+    width: 20vw;
+}
+
+.desc{
+    font-size: 1rem;
+    width: 20vw;
+    margin-top: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.text_link h1{
+    font-size: 3.2rem;
+}
+
+.goto-button{
+    margin-top: 2rem;
+    width: 7vw;
+}
+
+.image-displayer{
+    height: 43.5vh;
+    width: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8a8787;
+
+}
+
+.instagram{
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.instagram{
+    margin-bottom: 7rem;
+    overflow: hidden;
+}
+
+.instagram h1{
+    font-size: 2.2rem; 
+}
+
+.instagram-images{
+    margin-top: 5rem;
+}
+
+.instagram-images img{
+    height: 35vh;
+    width: 17vw;
+    margin-left: 1.2rem;
+}
+
+/* news letter */
+.newsletter{
+    background-color:#f2edeb;
+    height:70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newsletter h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+input{
+    height: 1.2vh;
+
+}
+
+
+@media only screen and (min-width: 713px) {
+    img {
+        height: 25vw;
+        width: auto;
+    }
+
+
+}
+
+/* another page */
+
+.main-product-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-product-image img{
+    height: auto;
+    width: auto;
+}
+
+.product-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.order-button a{
+    border: 2px solid orange;
+    text-decoration: none;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+} 

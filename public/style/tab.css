@@ -1,0 +1,76 @@
+.image {
+    width: 35vw;
+    height: 46vh;
+    overflow: hidden;
+
+}
+
+.navigation-control {
+    display: none;
+}
+
+.menu {
+    display: block;
+}
+
+
+.food-image-show {
+    width: 95vw;
+    height: 100vh;
+}
+
+.image span img {
+    height: 35vh;
+    width: 45vw;
+
+}
+
+.image .image-intro p {
+    width: 35vw;
+}
+
+.button-section {
+    height: 7rem;
+}
+
+.desc {
+    width: 40vw;
+}
+
+.goto-button {
+    width: 7rem;
+}
+
+.instagram-images img {
+    height: 30vh;
+    width: 50vw;
+}
+
+.instagram-images img {
+    height: 35vh;
+    width: 17vw;
+    margin-left: 1.2rem;
+}
+
+.image-img {
+    height: 22vh;
+    width: 27.5vw;
+}
+
+.image-displayer{
+    height: 24.5vh;
+    width: 30vw;
+}
+
+.image{
+    width: 45vw;
+    height: 45vh;
+}
+
+.moreButton, .goto-button{
+    width: 15vw;
+}
+
+@media only screen and ("min-width: 35rem ; and max-width: ;" ){
+
+}

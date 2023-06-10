@@ -1,0 +1,55 @@
+extends overview
+
+block content
+    section.body
+        div.journey-container
+            span.journey  My shit Journey
+            span.journey-where  From A to Z
+            span.join  Join me for daily reflections and delicious recipes
+
+        //- product listing
+        div.food-image-show
+            each product in productData
+                div.food-image-show
+                 -const link = product.name.replace(" ", "_");
+                 -const small = link.toLowerCase()
+                  a(href=`/shop/${small}`)
+                    .image
+                      span
+                        img(src=`${product.image}` alt='we ate them')
+                      span.image_intro
+                        h2=  product.name 
+                        p
+                          | product.price
+                          | perspiciatis? Magni itaque ad, cupiditate dolorum perferendis at!
+                          
+
+        //- button 
+        section.button-section
+            button.moreButton  More
+
+
+        //- goto shop section 
+        section.redirect-shop
+            div.text_link
+                h1  It's Official: The
+                h1  best of Thos
+
+                p.desc
+                    | You asked, we delivered. Thos’ best 100 recipes are now available as a hardback and we deliver worldwide!
+
+                button.goto-button  Go To Shop
+
+            div.image-displayer
+                img(src="./image/veg_salad.jpg", alt="").image-img
+
+
+        //- instagram section
+        section.instagram 
+            h1  Follow on Instagram @Thons
+            div.instagram-images
+                img(src="./image/veg_salad.jpg", alt="image shown failed")
+
+        //- footer section 
+        section.newsletter
+            h1  Send Us Newsletter

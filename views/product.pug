@@ -1,0 +1,15 @@
+extends overview
+
+block content
+    div.main-product-image
+        img(src="./../public/image/veg_salad.jpg", alt="iamge can't be shown")
+
+    div.product-information
+        h1= productFind.name
+        h3= `price ${productFind.price}`
+        h3= `Store ${productFind.store} ` 
+
+    div.order-button
+        -const link = productFind.name.replace(" ", "_");
+        -const small = link.toLowerCase()
+        a(href=`./${small}/payment`) Order Now 

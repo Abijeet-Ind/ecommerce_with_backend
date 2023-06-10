@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-product-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-product-image img{
+    height: auto;
+    width: auto;
+}
+
+.product-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.order-button a{
+    border: 2px solid orange;
+    text-decoration: none;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+} 
